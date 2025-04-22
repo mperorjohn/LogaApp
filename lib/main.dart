@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:my_flutter_app/screens/Landing.dart';
 import 'package:my_flutter_app/screens/Home.dart';
+import 'package:my_flutter_app/screens/ListViewTutorial.dart';
+import 'package:my_flutter_app/screens/RowColumn.dart';
 
 import '/screens/Dashboard.dart';
 
@@ -15,7 +17,7 @@ class Myapp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         themeMode: ThemeMode.system,
         title: "Testing App",
-        home: Home() ,
+        home: ListViewtutorial() ,
         theme: ThemeData(
           primarySwatch: Colors.red,
           fontFamily: 'Poppins',

@@ -34,7 +34,12 @@ class Dashboard extends StatelessWidget {
             ListTile(
               leading: const Icon(Icons.home, color: Colors.red),
               title: const Text('Home', style: TextStyle(color: Colors.red)),
-              onTap:null,
+              onTap: (){
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Landing()),
+                );
+              },
             ),
             ListTile(
               leading: const Icon(FontAwesomeIcons.user, color: Colors.red),
